@@ -11,7 +11,7 @@ namespace главное_меню
 {
     public partial class Form1 : Form
     {
-        bool f_open, f_save;
+        
         public Form1()
         {
             InitializeComponent();
