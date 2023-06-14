@@ -47,6 +47,7 @@
             menuStrip1.Size = new Size(800, 24);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
+            menuStrip1.ItemClicked += menuStrip1_ItemClicked;
             // 
             // файлToolStripMenuItem
             // 
@@ -58,21 +59,21 @@
             // открытьToolStripMenuItem
             // 
             открытьToolStripMenuItem.Name = "открытьToolStripMenuItem";
-            открытьToolStripMenuItem.Size = new Size(180, 22);
+            открытьToolStripMenuItem.Size = new Size(131, 22);
             открытьToolStripMenuItem.Text = "открыть";
             открытьToolStripMenuItem.Click += открытьToolStripMenuItem_Click;
             // 
             // сохранитьToolStripMenuItem
             // 
             сохранитьToolStripMenuItem.Name = "сохранитьToolStripMenuItem";
-            сохранитьToolStripMenuItem.Size = new Size(180, 22);
+            сохранитьToolStripMenuItem.Size = new Size(131, 22);
             сохранитьToolStripMenuItem.Text = "сохранить";
             сохранитьToolStripMenuItem.Click += сохранитьToolStripMenuItem_Click;
             // 
             // выходToolStripMenuItem
             // 
             выходToolStripMenuItem.Name = "выходToolStripMenuItem";
-            выходToolStripMenuItem.Size = new Size(180, 22);
+            выходToolStripMenuItem.Size = new Size(131, 22);
             выходToolStripMenuItem.Text = "выход";
             выходToolStripMenuItem.Click += выходToolStripMenuItem_Click;
             // 
@@ -92,6 +93,7 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(765, 222);
             textBox1.TabIndex = 1;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // Form1
             // 

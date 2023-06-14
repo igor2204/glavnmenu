@@ -11,9 +11,12 @@ namespace главное_меню
 {
     public partial class Form1 : Form
     {
+        bool f_open, f_save;
         public Form1()
         {
             InitializeComponent();
+            this.открытьToolStripMenuItem.Click += new System.EventHandler(this.открытьToolStripMenuItem_Click);
+            this.сохранитьToolStripMenuItem.Click += new System.EventHandler(this.сохранитьToolStripMenuItem_Click);
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -82,6 +85,16 @@ namespace главное_меню
         }
 
         private void saveFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
 
         }
